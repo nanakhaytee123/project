@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Auction</title>
+		<style>
+			.services,
+			.auctions {
+				padding: 40px 20px;
+				text-align: center;
+			}
+			.services h2,
+			.auctions h2 {
+				font-size: 2rem;
+				margin-bottom: 20px;
+			}
+			.service-list,
+			.auction-list {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				gap: 20px;
+			}
+			.card {
+				background: #fff;
+				padding: 20px;
+				border-radius: 10px;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+				width: 300px;
+			}
+			.card img {
+				width: 100%;
+				border-radius: 10px;
+			}
+			.card h3 {
+				margin: 15px 0 10px;
+			}
+			.card p {
+				font-size: 0.9rem;
+				line-height: 1.5;
+			}
+
+			button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+		</style>
+	</head>
+	<body>
+		<section class="auctions" id="auctions">
+			<h2>Upcoming Auctions</h2>
+			<div class="auction-list">
+				<div class="card">
+					<img src="img/c-class.jpeg" alt="Mercedes-Benz Auction" />
+					<h3>Mercedes-Benz C-Class</h3>
+					<p>
+						Starting at $23,000. Don't miss the chance to own your dream car!
+					</p>
+				</div>
+				<div class="card">
+					<img src="img/auction.jpeg" alt="Auction Event" />
+					<h3>Live Auction Event</h3>
+					<p>
+						Join us on Saturday for an exciting live auction featuring various
+						luxury cars.
+					</p>
+				</div>
+			</div><br><br><br>
+			<form action="auction_cars.html" method="get">
+				<button type="submit">Available Cars</button>
+			</form>
+		</section>
+	</body>
+</html>

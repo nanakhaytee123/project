@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Services</title>
+		<link rel="stylesheet" href="style.css">
+		<style>
+			header {
+				background-color: #000;
+				color: #fff;
+				padding: 1px;
+				text-align: center;
+			}
+
+			.services{
+				padding: 40px 20px;
+				text-align: center;
+			}
+			.services h2 {
+				font-size: 2rem;
+				margin-bottom: 20px;
+				color: whitesmoke;
+			}
+			.service-list{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				gap: 20px;
+			}
+
+			.card {
+				background: #fff;
+				padding: 20px;
+				border-radius: 10px;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+				width: 300px;
+			}
+			.card img {
+				width: 100%;
+				border-radius: 10px;
+			}
+			.card h3 {
+				margin: 15px 0 10px;
+			}
+			.card p {
+				font-size: 0.9rem;
+				line-height: 1.5;
+			}
+
+			body{
+				margin: 0;
+				padding: 0;
+				background-image: url("img/logo.jpeg");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h2>Our Services</h2>
+		</header>
+		<section class="services" id="services">
+			<div class="service-list">
+				<div class="card">
+					<img src="img/MECH.jpeg" alt="Car Repair" />
+					<h3>Car Repairs</h3>
+					<p>
+						Expert repairs for all your Mercedes-Benz needs, including oil
+						changes and engine replacements.
+					</p>
+				</div>
+				<div class="card">
+					<img src="img/Gle 450.jpeg" alt="Car Rental" />
+					<h3>Car Rentals</h3>
+					<p>Affordable and reliable rental services for any occasion.</p>
+				</div>
+				<div class="card">
+					<img src="img/oil-car.jpeg" alt="Oil Change" />
+					<h3>Oil Change</h3>
+					<p>Affordable and reliable rental services for any occasion.</p>
+				</div>
+				<div class="card">
+					<img src="img/engine.jpeg" alt="Engine Replacement" />
+					<h3>Engine Replacement</h3>
+					<p>Affordable and reliable rental services for any occasion.</p>
+				</div>
+				<div class="card">
+					<img src="img/parts.jpeg" alt="Engine Replacement" />
+					<h3>Body Part Replacement</h3>
+					<p>Affordable and reliable rental services for any occasion.</p>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
